@@ -1,14 +1,26 @@
+/* margine e allineamento page */
 #margine{
     width: 800px;
-    margin: auto;    
+    margin: auto; 
+    background-color: rgb(247, 247, 239);   
+}
+/* margine e allineamento page */
+
+
+header{
+    background-color: #4EA0FF;
+    height: 70px;
 }
 
 .pattern{
     background-image: url("../img/pattern.png");
+    width: 800px;
+    height: 70px;
+    
 }
 
 .booleaner{
-    width: 200px;
+    width: 120px;
 }
 
 .img-sizeA{
@@ -17,4 +29,12 @@
 
 .img-sizeB{
     width: 325px;
+}
+
+/* footer */
+.footerA{
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 150px;
 }
