@@ -1,9 +1,10 @@
 #margine{
-    width: 900px;
+    width: 800px;
+    margin: auto;
     
 }
 
-pattern{
+.pattern{
     background-image: url("../img/pattern.png");
 }
 
