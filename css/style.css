@@ -2,11 +2,11 @@
 #margine{
     width: 800px;
     margin: auto; 
-    background-color: rgb(247, 247, 239);   
+    background-color: rgb(247, 247, 243);   
 }
 /* margine e allineamento page */
 
-
+/* header */
 header{
     background-color: #4EA0FF;
     height: 70px;
@@ -15,12 +15,27 @@ header{
 .pattern{
     background-image: url("../img/pattern.png");
     width: 800px;
-    height: 70px;
-    
+    height: 70px;    
 }
 
 .booleaner{
     width: 120px;
+}
+/* header */
+
+/* main */
+h1{
+    font-size: 30px;
+}
+
+.fonte{
+    color: grey;
+    font-size: 14px;
+}
+
+.data{
+    font-size: 10px;
+    color: grey;
 }
 
 .img-sizeA{
@@ -30,6 +45,12 @@ header{
 .img-sizeB{
     width: 325px;
 }
+
+p{
+    font-size: 13px;
+}
+/* main */
+
 
 /* footer */
 h5{
@@ -57,3 +78,4 @@ h5{
     padding: 10px;
     color: white;
 }
+/* footer */
