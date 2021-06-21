@@ -1,7 +1,6 @@
 #margine{
     width: 800px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .pattern{
@@ -10,4 +9,12 @@
 
 .booleaner{
     width: 200px;
+}
+
+.img-sizeA{
+    width: 380px;
+}
+
+.img-sizeB{
+    width: 325px;
 }
