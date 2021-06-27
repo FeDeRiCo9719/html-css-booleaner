@@ -43,7 +43,7 @@ h1{
 }
 
 .color-blue{
-    color: blue;
+    color: rgb(2, 158, 219);
 }
 
 .fonte{
@@ -56,6 +56,7 @@ h1{
     color: grey;
 }
 
+/* <!-- immagini --> */
 .imgbox{
     margin-top: 20px;
 }
@@ -72,6 +73,7 @@ h1{
     font-size: 12px;
 }
 
+/* <!-- paragrafo e lista --> */
 .yellow{
     background-color: yellow;
 }
@@ -87,6 +89,31 @@ ul{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* <!-- Table --> */
+table{
+    border-spacing: 0px;   
+}
+
+.big-col{
+    width: 50%;
+}
+
+thead{
+    text-align: left;
+    color: white;
+    background-color: rgb(41, 133, 255);
+}
+
+td{
+    font-size: 12px;
+}
+
+.color-row{
+    background-color: rgb(139, 231, 235);
+}
+
+
 
 
 
