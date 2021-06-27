@@ -1,31 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 /* margine e allineamento page */
 #margine{
     width: 800px;
-    margin: auto; 
-    background-color: rgb(247, 247, 243);   
+    margin: auto;
+    background-color: rgb(248, 248, 248);   
 }
-/* margine e allineamento page */
+
+
 
 /* header */
 header{
     background-color: #4EA0FF;
-    height: 70px;
-}
-
-.pattern{
     background-image: url("../img/pattern.png");
-    width: 800px;
-    height: 70px;    
+    background-repeat: repeat-x;
+    background-size: 50%;
+    height: 70px;
+    background-position-y: -20px;
 }
 
-.booleaner{
-    width: 120px;
+.logo{
+    margin: 30px 0px 0px 5px;
+    width: 150px;
 }
-/* header */
+
+
 
 /* main */
+main{
+    padding-left: 5px;
+}
+
 h1{
     font-size: 30px;
+    margin-top: 20px;
+}
+
+.color-blue{
+    color: blue;
 }
 
 .fonte{
@@ -51,16 +69,32 @@ h1{
 }
 
 .commenti{
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.yellow{
+    background-color: yellow;
 }
 
 p{
-    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
-/* main */
+
+ul{
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 
 /* footer */
+footer{
+    padding-left: 5px;
+}
+
 h5{
     margin-bottom: 10px;
     color: grey;
@@ -82,8 +116,8 @@ h5{
 }
 
 .whitefont{
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px;
     color: white;
 }
-/* footer */
+
